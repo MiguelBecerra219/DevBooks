@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 import cloudflare from '@astrojs/cloudflare';
 
+
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
@@ -20,9 +21,6 @@ export default defineConfig({
     }
   },
 
-  adapter: cloudflare({
-    platformProxy: {
-      enabled: true
-    }
-  })
+  adapter: cloudflare(),
+
 });
