@@ -24,6 +24,9 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.16
         version: 0.5.16(tailwindcss@4.1.5)
+      wrangler:
+        specifier: ^4.14.4
+        version: 4.14.4(@cloudflare/workers-types@4.20250510.0)
 
 packages:
 

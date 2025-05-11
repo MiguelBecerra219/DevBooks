@@ -1,0 +1,5 @@
+{
+    "name": "devbooks",
+    "compatibility_date": "2025-05-10",
+    "main": "src/index.ts"
+}
